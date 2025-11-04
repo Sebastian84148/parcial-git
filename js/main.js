@@ -41,10 +41,12 @@ function mostrarProductos(array) {
     contenedorFrutas.innerHTML = cartaProducto;
 }
 
-barraBusqueda.addEventListener("keyup", () => {
+const filterProducts = () => {
     filtrarProductos();
     alerta();
-});
+};
+
+barraBusqueda.addEventListener("keyup", filterProducts);
 
 function alerta() {
     console.log("holis");
