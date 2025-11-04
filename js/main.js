@@ -49,7 +49,7 @@ const filterProducts = () => {
 barraBusqueda.addEventListener("keyup", filterProducts);
 
 function alerta() {
-    console.log("holis");
+    console.log("holi");
 }
 
 function filtrarProductos() {
