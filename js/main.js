@@ -25,8 +25,6 @@ else{
     // let carrito = [];
 }
 
-console.log(barraBusqueda);
-
 function mostrarProductos(array) {
     let cartaProducto = "";
     array.forEach(fru => {
